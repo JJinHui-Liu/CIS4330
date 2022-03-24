@@ -1,37 +1,6 @@
 ## Prana added to NetflixOSS: A case study of the meaning and reason of adding Prana to Netflix.
 
-You can use the [editor on GitHub](https://github.com/JJinHui-Liu/CIS4330/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Abstract: 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The majority of Netflix applications are written in Java. While Java is still the best choice, as products and services expand, we need incorporate non-JVM languages to create a more robust ecosystem. Among them, JavaScript is suitable for developing Web applications. The React framework is used to build the UI layer at the front end, and Django (Python) is used to build the back-end framework at the back end. Furthermore, Netflix has developed and established a stable environment, Netflix PaaS. However, because most of these libraries are developed in JAVA, a win-win solution is required to ensure that the JAVA libraries and services continue to flourish as additional languages are added. One of the solutions is to duplicate library functionality in many languages, which increase developer resources and maintenance time for the product. Another solution is using Sidecar. Sidecar is a solution that delivers "non-intrusive platform capabilities," picking Prana as Netflix's Sidecar is a solid decision. For instance, Parana can perform Eureka registration and login events over HTTP on the same virtual instance using a locally available server. Additionally, because some processes run on the JVM, Prana can reduce overhead for short-term processes. Notably, Prana makes use of Hystrix/Ribbon proxies to request other microservices, allowing the primary program to communicate with other microservices within Netflix using the same elastic stack as other JVM-based programs.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JJinHui-Liu/CIS4330/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
